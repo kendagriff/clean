@@ -17,7 +17,7 @@ Generates:
 require 'test_helper'
 
 module Teacher
-  class User < ActiveSupport::TestCase
+  class UserTest < ActiveSupport::TestCase
     setup do
     end
 
