@@ -12,7 +12,7 @@ rails g data teachers:user
 
 Generates:
 
-##### ./test/unit/teachers/user.rb
+##### ./test/unit/teachers/user_test.rb
 ```
 require 'test_helper'
 
