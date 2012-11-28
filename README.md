@@ -35,3 +35,35 @@ module Teacher
   end
 end
 ```
+
+### Roles
+
+```
+rails g role teachers:admin
+```
+
+##### ./test/unit/roles/teachers/admin_test.rb
+```
+require 'test_helper'
+
+module Teacher
+  class AdminTest < ActiveSupport::TestCase
+    setup do
+    end
+
+    test "do something" do
+    end
+  end
+end
+```
+
+##### ./app/models/teachers/admin.rb
+```
+module Teacher
+  module Admin
+    def do_something
+      # Behavior here...
+    end
+  end
+end
+```
