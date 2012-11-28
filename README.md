@@ -12,7 +12,7 @@ rails g data teachers:user
 
 Generates:
 
-##### ./test/unit/teachers/user_test.rb
+##### test/unit/teachers/user_test.rb
 ```
 require 'test_helper'
 
@@ -27,7 +27,7 @@ module Teachers
 end
 ```
 
-##### ./app/models/teachers/user.rb
+##### app/models/teachers/user.rb
 ```
 module Teachers
   class User
@@ -42,7 +42,7 @@ end
 rails g role teachers:admin
 ```
 
-##### ./test/unit/roles/teachers/admin_test.rb
+##### test/unit/roles/teachers/admin_test.rb
 ```
 require 'test_helper'
 
@@ -57,7 +57,7 @@ module Teachers
 end
 ```
 
-##### ./app/models/teachers/admin.rb
+##### app/models/teachers/admin.rb
 ```
 module Teachers
   module Admin
