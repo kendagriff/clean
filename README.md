@@ -16,7 +16,7 @@ Generates:
 ```
 require 'test_helper'
 
-module Teacher
+module Teachers
   class UserTest < ActiveSupport::TestCase
     setup do
     end
@@ -29,7 +29,7 @@ end
 
 ##### ./app/models/teachers/user.rb
 ```
-module Teacher
+module Teachers
   class User
     # attr_accessor :name, :title
   end
@@ -46,7 +46,7 @@ rails g role teachers:admin
 ```
 require 'test_helper'
 
-module Teacher
+module Teachers
   class AdminTest < ActiveSupport::TestCase
     setup do
     end
@@ -59,7 +59,7 @@ end
 
 ##### ./app/models/teachers/admin.rb
 ```
-module Teacher
+module Teachers
   module Admin
     def do_something
       # Behavior here...
