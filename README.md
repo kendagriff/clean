@@ -1,13 +1,13 @@
 # Clean
 
-Provides a set of generators for implementing DCI, a simple and clean development pattern, in Rails.
+Provides a set of generators for implementing DCI, a simple and clean development pattern.
 
 ## Generators
 
 ### Data
 
 ```
-rails g data teachers:user
+clean data teachers:user
 ```
 
 Generates:
