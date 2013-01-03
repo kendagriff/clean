@@ -39,7 +39,7 @@ end
 ### Roles
 
 ```
-rails g role teachers:admin
+clean role teachers:admin
 ```
 
 ##### test/unit/roles/teachers/admin_test.rb
