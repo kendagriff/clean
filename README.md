@@ -1,4 +1,3 @@
-im a changer!
 # Clean
 
 Provides a set of generators for implementing DCI, a simple and clean development pattern.
